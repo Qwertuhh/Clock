@@ -1,0 +1,103 @@
+:root{
+    --color-primary: #6c63ff;
+    --color-clock:rgba(252,252,252,0.2);
+    --color-2-hover:rgba(252,252,252,0.1);
+  }
+  *{
+    background: linear-gradient( 125deg, #6c63ff , #181fec);
+    padding:10px;
+    margin: 0px;
+  }
+  #clock{
+    margin-top: 80px;
+  }
+  #day{
+    cursor: pointer;
+    font-size: 90px;
+    font-weight: 100;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 20px;
+    background-color:rgba(252,252,252,0.2) ;
+    font-family: 'Edu TAS Beginner';
+  }
+  #day:hover{
+    background: var(--color-clock);
+  }
+  .clo{
+    cursor: pointer;
+    box-shadow: 1px 2px #7ec9ed ;
+    font-family: 'Bricolage Grotesque';
+    box-shadow: 1px 2px 5px #7ec9ed, inset 1px 2px 2px #7ec9ed;
+    background: var(--color-clock);
+    font-size: 190px;
+    width:220px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display:inline-flex;
+    justify-content: center;
+    justify-self: center;
+  }
+  .cloc{
+    background:rgba(252,252,252,0) ;
+    font-size: 190px;
+    font-family: 'Bricolage Grotesque';
+    padding: 10px;
+    margin: 10px;
+    display:inline-flex;
+    justify-content: center;
+    justify-self: center;
+  }
+  .cloi{
+    background:var(--color-clock) ;
+    font-size: 90px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: 'Bricolage Grotesque';
+    padding: 5px;
+    display:inline-flex;
+    box-shadow: 1px 2px 5px #7ec9ed, inset 1px 2px 2px #7ec9ed;
+    justify-content: center;
+    justify-self: center;
+    transition: 0.2s;
+  }
+  .cloi:hover{ 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: var(--color-2-hover);
+    color:black;
+  }
+  #ih{
+   transition: 0.5s;
+    margin: 0px;
+  }
+  #ih:hover{
+   background: var(--color-2-hover);
+    color:black;
+    border-radius: 10px;
+  }
+  #im{
+   transition: 0.2s;
+  }
+  #im:hover{
+     background: var(--color-2-hover);
+      color:black;
+      border-radius: 10px;
+  }
+  #is{
+    color: white;
+    background: #910808;
+    border-radius: 20px;
+    transition: 0.5s;
+    width: 240px;
+    position: relative;
+  }
+  #is:hover{
+    color: #b20101;
+    background-color: var(--color-primary);
+    border-radius: 10px;  
+  }
+  
+  
