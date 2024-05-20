@@ -4,7 +4,7 @@ Welcome to my project repository! This project showcases the programming concept
 
 This repository contains an Clock which shows correct time
 
-[click here to hope on site!](qwertuhh-clock.netlify.app)
+[click here to hope on site!](https://qwertuhh-clock.netlify.app)
 
 ## What I had learnt
 
